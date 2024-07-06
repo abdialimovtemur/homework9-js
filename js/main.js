@@ -7,7 +7,7 @@
 // function getInitialOdds(userNum) {
     
 
-//     for (let i = 1; i <= userNum; i++) {
+//     for (let i = 1; i <= userNum*2; i++) {
 //         if (i % 2 !== 0) {
 //             console.log(i)
 //             arr.push(i)
@@ -23,24 +23,24 @@
 // 2. string da nechta unli harf borligini toping bunda unli harflar ro'yxatini alohida array ko'rinishida shakllantirib olib keyin loop qilib bajaring
 
 
-const vowelLetters = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+// const vowelLetters = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
 
-function countVowels(str) {
-    let count = 0;
-    for (let i = 0; i < str.length; i++) {
+// function countVowels(str) {
+//     let count = 0;
+//     for (let i = 0; i < str.length; i++) {
 
-        if (vowelLetters.includes(str[i])) {
-            count++;
-        }
-    }
+//         if (vowelLetters.includes(str[i])) {
+//             count++;
+//         }
+//     }
 
-    return count;
-}
+//     return count;
+// }
 
-let testString = "Temurbek Abdialimov";
+// let testString = "Temurbek Abdialimov";
 
-let result = countVowels(testString);
-console.log(result);  
+// let result = countVowels(testString);
+// console.log(result);  
 
 
 
