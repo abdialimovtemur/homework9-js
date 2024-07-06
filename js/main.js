@@ -23,6 +23,24 @@
 // 2. string da nechta unli harf borligini toping bunda unli harflar ro'yxatini alohida array ko'rinishida shakllantirib olib keyin loop qilib bajaring
 
 
+const vowelLetters = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+
+function countVowels(str) {
+    let count = 0;
+    for (let i = 0; i < str.length; i++) {
+
+        if (vowelLetters.includes(str[i])) {
+            count++;
+        }
+    }
+
+    return count;
+}
+
+let testString = "Temurbek Abdialimov";
+
+let result = countVowels(testString);
+console.log(result);  
 
 
 
